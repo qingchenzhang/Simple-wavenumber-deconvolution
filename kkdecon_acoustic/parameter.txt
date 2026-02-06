@@ -1,0 +1,49 @@
+--x grid number: nx 
+  845
+--z grid number: nz
+  702
+--PSF x number: psfwinx 
+  31
+--PSF z number: psfwinz
+  31
+--Filter x number: filterwinx  --   -- filterwinx >> realpsfwinx
+  71
+--Filter z number: filterwinz  --   -- filterwinz >> realpsfwinz
+  71
+--Snap x number: snapwinx  --  -- -- filterwinx-2*snapwinx >= realpsfwinx 
+  11
+--Snap z number: snapwinz  --  -- -- filterwinz-2*snapwinz >= realpsfwinz
+  11
+--FFT epsilon 
+  5.0e-4
+--Accurate p-Velocity File----
+./input/acc_vp.bin
+--Migration p-Velocity File----
+./input/ini_vp.bin
+--Density File----
+./input/ini_rho.bin
+--Real Migration p-Image File----
+./input/migration_dupp.bin
+--pp-PSF Migration File----
+./input/migration_dupsf.bin
+--P-Deconvolution Result-----
+./output/migration_dudecon.bin
+--Inv PSF File-----
+./output/inv_psf.bin
+--Phase Shift FLag
+  0
+--Regularization coefficient: reg_eps L1-1e-1
+  2.0e-2
+--Regularization coefficient: reg_eps L2-5e-3
+  6.0e-2
+-- total iteration number: itn
+  100
+
+
+
+# Useless  !!!!
+--SVD epsilon mu1
+  1.0e-6
+--SVD epsilon mu2
+  1.0e-6
+
