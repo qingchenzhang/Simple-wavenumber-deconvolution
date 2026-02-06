@@ -1,0 +1,51 @@
+--x grid number: nx 
+  845
+--z grid number: nz
+  702
+--PML numbers: pml
+  16
+--FD order: Lc
+  5
+--x grid interval (m): dx
+  10.0
+--z grid interval (m): dz
+  10.0
+--recording time: rectime-float//itmax-int//
+  7000
+--time sample (s): dt
+  1.0e-3
+--Riker wavelet dominant frequency (Hz): f0
+  20.0
+--shot numbers: ns
+  210
+--the distance of the first shot at the left boundary (m): sx0
+  50.0
+--shot interval X (m): shotdx
+  40.0
+--the depth of shots (m): shotdep
+  0.0
+--the distance of receivers (m): recdix=nx/2
+  5000.0
+--maximum offset
+  5000.0 
+--scatter_flag
+  1
+--scatter window  - 31
+  51
+--velocity smooth window
+  5
+
+
+
+
+
+
+###########################################################
+--velocity filename:
+  acc_vp.bin
+--scatter data filename: %dsource
+  source_seismogram_scatter.bin
+--observed data filename: %dsource
+  source_seismogram_rms.bin
+
+
